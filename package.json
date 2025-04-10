@@ -1,0 +1,58 @@
+{
+  "name": "puregpt",
+  "displayName": "PureGPT",
+  "description": "No backend, no login, no BS. Just your GPT.",
+  "version": "0.0.1",
+  "publisher": "your-name",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": ["Other"],
+  "activationEvents": [
+    "onView:puregpt.sidebar"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "puregpt",
+          "title": "PureGPT",
+          "icon": "media/icon.svg"
+        }
+      ]
+    },
+    "views": {
+      "puregpt": [
+        {
+          "id": "puregpt.sidebar",
+          "name": "Chat"
+        }
+      ]
+    },
+    "configuration": {
+      "type": "object",
+      "title": "PureGPT Configuration",
+      "properties": {
+        "puregpt.openaiApiKey": {
+          "type": "string",
+          "default": "",
+          "description": "Your OpenAI API Key (starts with sk-)"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "tsc -p ./",
+    "build": "tsc -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "@types/vscode": "^1.75.0",
+    "typescript": "^5.0.0",
+    "vsce": "^2.18.0"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
+}

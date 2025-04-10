@@ -46,7 +46,7 @@ You keep full control over your data.
 
 ---
 
-# PureGPT – 내 ChatGPT API(OpenAI API)만 쓰는 VS Code 확장
+# OpenGPT – 내 ChatGPT API(OpenAI API)만 쓰는 VS Code 확장
 
 > GPT를 사용하는 가장 순수한 방법 – 내 키만 쓰고, 로그인도, 가입도 필요 없는 진짜 개발자용 확장
 
@@ -102,4 +102,4 @@ You keep full control over your data.
 
 ## 📜 License
 
-MIT License © 2025 [Li2Fact3 & ChatGPT Team]
+MIT License © 2025 [Li2Fact3(AmilA) & ChatGPT Team]

@@ -1,4 +1,3 @@
-# vscode-puregpt
 # 🧠 OpenGPT – No Backend, No Login, Just Your GPT
 
 > A minimalist, privacy-first ChatGPT extension for VS Code  

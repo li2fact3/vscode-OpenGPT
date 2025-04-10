@@ -1,5 +1,5 @@
 # vscode-puregpt
-# 🧠 PureGPT – No Backend, No Login, Just Your GPT
+# 🧠 OpenGPT – No Backend, No Login, Just Your GPT
 
 > A minimalist, privacy-first ChatGPT extension for VS Code  
 > 💬 Powered by *your own* OpenAI API key. No tracking, no logins, no middle servers.

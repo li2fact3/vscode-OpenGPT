@@ -20,7 +20,7 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build extension (TypeScript)
+      - name: Build extension
         run: npm run build || tsc -p .
 
       - name: Install vsce

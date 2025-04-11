@@ -1,0 +1,52 @@
+{
+  "name": "open-gpt",
+  "displayName": "OpenGPT",
+  "description": "A lightweight GPT extension for VS Code with your own API key.",
+  "version": "0.0.4",
+  "publisher": "puregpt-team",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/li2fact3/vscode-OpenGPT.git"
+  },
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onView:open-gpt.sidebar"
+  ],
+  "main": "./out/extension.js",
+  "icon": "media/icon.svg",
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "open-gpt",
+          "title": "OpenGPT",
+          "icon": "media/icon.svg"
+        }
+      ]
+    },
+    "views": {
+      "open-gpt": [
+        {
+          "id": "open-gpt.sidebar",
+          "name": "Chat"
+        }
+      ]
+    },
+    "configuration": {
+      "type": "object",
+      "title": "OpenGPT Configuration",
+      "properties": {
+        "open-gpt.openaiApiKey": {
+          "type": "string",
+          "default": "",
+          "description": "Your OpenAI API Key"
+        }
+      }
+    }
+  }
+}

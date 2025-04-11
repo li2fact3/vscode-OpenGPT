@@ -19,12 +19,15 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        working-directory: ./extension
 
       - name: Build extension
         run: npm run build || tsc -p .
+        working-directory: ./extension
 
       - name: Install vsce
         run: npm install -g vsce
 
       - name: Publish to VS Code Marketplace
         run: vsce publish -p ${{ secrets.VSCE_PAT }}
+        working-directory: ./extension

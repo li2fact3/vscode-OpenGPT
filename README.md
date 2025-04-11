@@ -36,7 +36,7 @@ VS Code에서:
 
 ## 🤝 Credits (제작자)
 
-Made with ❤️ by **Li2Fact3(AmilA) & ChatGPT**  
-본 확장은 Li2Fact3(AmilA)와 ChatGPT가 함께 만든 오픈소스 프로젝트입니다.
+Made with ❤️ by **AmilA & ChatGPT**  
+본 확장은 AmilA와 ChatGPT가 함께 만든 오픈소스 프로젝트입니다.
 
 ---

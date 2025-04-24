@@ -22,7 +22,7 @@ jobs:
         working-directory: ./extension
 
       - name: Build extension
-        run: npm run build || tsc -p .
+        run: npm run build
         working-directory: ./extension
 
       - name: Install vsce

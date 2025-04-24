@@ -26,7 +26,7 @@ jobs:
         working-directory: ./extension
 
       - name: Install vsce
-        run: npm install -g vsce
+      - run: npm install -g vsce@2.17.0
 
       - name: Publish to VS Code Marketplace
         run: vsce publish -p ${{ secrets.VSCE_PAT }}
